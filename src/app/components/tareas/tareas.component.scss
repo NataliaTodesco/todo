@@ -1,0 +1,23 @@
+.tareas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+  }
+  label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #333333;
+  }
+  .borrar {
+    cursor: pointer;
+  }
+}

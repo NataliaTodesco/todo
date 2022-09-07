@@ -1,0 +1,10 @@
+<div class="contenedor">
+    <div class="form">
+        <div class="form-group mb-2">
+            <input type="text" class="form-control" id="add" placeholder="add details" [(ngModel)]="task"
+                autocomplete="off">
+        </div>
+        <button type="button" class="btn btn-primary mb-2 px-5" (click)="agregarTarea()">Add</button>
+    </div>
+    <p class="text-danger"> {{error}}</p>
+</div>

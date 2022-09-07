@@ -1,0 +1,8 @@
+<div class="nav">
+    <ul class="list">
+        <li class="item" (click)="Filtrar('all')" id="all" [ngClass]="{'active': estado == 'all'}">All</li>
+        <li class="item" (click)="Filtrar('active')" id="active" [ngClass]="{'active': estado == 'active'}">Active</li>
+        <li class="item" (click)="Filtrar('complete')" id="complete" [ngClass]="{'active': estado == 'complete'}">
+            Completed</li>
+    </ul>
+</div>
